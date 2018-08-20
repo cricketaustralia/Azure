@@ -9,12 +9,12 @@ In this template, we use the resource loops capability to create the network int
 </br>
 <b>Inclusions:</b>
 <li>2 x Virtual Machines</li>
+<li>2 x Network Interfaces</li>
+<li>2 x Storage Accounts</li>
 <li>1 x Availability Set</li>
 <li>1 x Load Balancer</li>
 <li>1 x Gateway</li>
 <li>1 x Public IP Address</li>
-<li>2 x Network Interfaces</li>
-<li>2 x Storage Accounts</li>
 </br></br>
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcricketaustralia%2FAzure-Templates%2FLoad-Balancer%2Fdeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
