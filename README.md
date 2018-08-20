@@ -2,11 +2,12 @@
 
 <h3>1. Create 2 Virtual Machines under a Load balancer and configures Load Balancing rules for the VMs</h3>
 </br>
+<b>Summary</b>
 <p>This template allows you to create 2 Virtual Machines under a Load balancer and configure a load balancing rule on Port 80. This template also deploys a Storage Account, Virtual Network, Public IP address, Availability Set and Network Interfaces.
 </br>
 In this template, we use the resource loops capability to create the network interfaces and virtual machines</p>
 </br>
-Inclusions:
+<b>Inclusions:</b>
 <li>2 x Virtual Machines</li>
 <li>1 x Availability Set</li>
 <li>1 x Load Balancer</li>
