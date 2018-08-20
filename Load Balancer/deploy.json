@@ -10,6 +10,7 @@
     },
     "adminUsername": {
       "type": "string",
+      "defaultValue": "acadmin",
       "metadata": {
         "description": "Admin username"
       }
@@ -28,7 +29,7 @@
     },
     "vmNamePrefix": {
       "type": "string",
-      "defaultValue": "myVM",
+      "defaultValue": "ABV-PD-AUE-WB0",
       "metadata": {
         "description": "Prefix to use for VM names"
       }
@@ -49,35 +50,35 @@
     },
     "imageSKU": {
       "type": "string",
-      "defaultValue": "2012-R2-Datacenter",
+      "defaultValue": "2016-Datacenter",
       "metadata": {
         "description": "Image SKU"
       }
     },
     "lbName": {
       "type": "string",
-      "defaultValue": "myLB",
+      "defaultValue": "ABV-PD-AUE-LB01",
       "metadata": {
         "description": "Load Balancer name"
       }
     },
     "nicNamePrefix": {
       "type": "string",
-      "defaultValue": "nic",
+      "defaultValue": "ABV-PD-AUE-WB0",
       "metadata": {
         "description": "Network Interface name prefix"
       }
     },
     "publicIPAddressName": {
       "type": "string",
-      "defaultValue": "myPublicIP",
+      "defaultValue": "ABV-PD-AUE-VNET1-VGW1-PIP",
       "metadata": {
         "description": "Public IP Name"
       }
     },
     "vnetName": {
       "type": "string",
-      "defaultValue": "myVNET",
+      "defaultValue": "AC-ABV-PD-AUE-VNET1",
       "metadata": {
         "description": "VNET name"
       }
@@ -92,7 +93,7 @@
   },
   "variables": {
     "storageAccountType": "Standard_LRS",
-    "availabilitySetName": "myAvSet",
+    "availabilitySetName": "ABV-PD-AUE-AS1",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet-1",
     "subnetPrefix": "10.0.0.0/24",
