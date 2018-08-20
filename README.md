@@ -3,7 +3,7 @@
 <h3>1. Create 2 Virtual Machines under a Load balancer and configures Load Balancing rules for the VMs</h3>
 </br>
 <b>Summary</b>
-<p>This template allows you to create 2 Virtual Machines under a Load balancer and configure a load balancing rule on Port 80. This template also deploys a Storage Account, Virtual Network, Public IP address, Availability Set and Network Interfaces.
+<p>This template allows you to create 2 Virtual Machines under a Load balancer and configure a load balancing rule on Port 80.
 </br>
 In this template, we use the resource loops capability to create the network interfaces and virtual machines</p>
 </br>
@@ -14,6 +14,7 @@ In this template, we use the resource loops capability to create the network int
 <li>1 x Gateway</li>
 <li>1 x Public IP Address</li>
 <li>2 x Network Interfaces</li>
+<li>2 x Storage Accounts</li>
 </br></br>
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-2-vms-loadbalancer-lbrules%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
