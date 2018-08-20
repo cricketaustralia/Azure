@@ -24,14 +24,12 @@ In this template, we use the resource loops capability to create the network int
 </a>
 <hr>
 </br>
-<h3>1. Create Auto Scale Virtual Machines under a Load balancer and configures Load Balancing rules for the VMs</h3>
+<h3>2. Create Auto Scale Virtual Machines under a Load balancer and configures Load Balancing rules for the VMs</h3>
 </br>
 <b>Summary</b>
 <p>The following template deploys a Virtual Machine ScaleSet + Autoscale Setting for Virtual Machine ScaleSet plan based on a single metric.
 
 If the metric is above the upper threshold, the example autoscale setting will scale out the instance count. If the metric is below the lower threshold, the example autoscale setting will scale in the instance count. This sample illustrates how easy it is to automate autoscale setting configuration for Virtual Machine ScaleSets via templates.</p>
-</br>
-In this template, we use the resource loops capability to create the network interfaces and virtual machines</p>
 </br>
 <b>Inclusions:</b>
 <li>2 x Virtual Machines</li>
