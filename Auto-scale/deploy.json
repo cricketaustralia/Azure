@@ -4,7 +4,15 @@
   "parameters": {
     "vmSku": {
       "type": "string",
-      "defaultValue": "Standard_A1",
+      "defaultValue": "Standard_B2ms",
+      "allowedValues": [
+        "Standard_B1s",
+        "Standard_B1ms",
+        "Standard_B2s",
+        "Standard_B1ms",
+        "Standard_B4ms",
+        "Standard_B8ms"
+      ],
       "metadata": {
         "description": "Size of VMs in the VM Scale Set."
       }
@@ -35,13 +43,14 @@
       "type": "int",
       "defaultValue": 2,
       "metadata": {
-        "description": "Number of VM instances (1000 or less)."
+        "description": "Number of VM instances (10 or less)."
       },
       "minValue":  1,
-      "maxValue": 1000
+      "maxValue": 10
     },
     "adminUsername": {
       "type": "string",
+      "defaultValue": "acadmin",
       "metadata": {
         "description": "Admin username."
       }
@@ -59,7 +68,7 @@
         "description": "The minimum capacity.  Autoscale engine will ensure the instance count is at least this value."
       },
       "minValue": 1,
-      "maxValue": 1000
+      "maxValue": 10
     },
     "maximumCapacity": {
       "type": "Int",
@@ -68,7 +77,7 @@
         "description": "The maximum capacity.  Autoscale engine will ensure the instance count is not greater than this value."
       },
       "minValue": 1,
-      "maxValue": 1000
+      "maxValue": 10
     },
     "defaultCapacity": {
       "type": "Int",
@@ -77,7 +86,7 @@
         "description": "The default capacity.  Autoscale engine will preventively set the instance count to be this value if it can not find any metric data."
       },
       "minValue": 1,
-      "maxValue": 1000
+      "maxValue": 10
     },
     "metricName": {
       "type": "String",
@@ -88,7 +97,7 @@
     },
     "metricThresholdToScaleOut": {
       "type": "Int",
-      "defaultValue": 60,
+      "defaultValue": 35,
       "metadata": {
         "description": "The metric upper threshold.  If the metric value is above this threshold then autoscale engine will initiate scale out action."
       }
