@@ -40,7 +40,7 @@ If the metric is above the upper threshold, the example autoscale setting will s
 <li>1 x Gateway</li>
 <li>1 x Public IP Address</li>
 </br></br>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fcricketaustralia%2FAzure-Templates%2Fblob%2Fmaster%2FLoad%20Balancer%2Fdeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fcricketaustralia%2FAzure-Templates%2Ftree%2Fmaster%2FLoad%20Balancer%2Fdeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fcricketaustralia%2FAzure-Templates%2FLoad-Balancer%2Fdeploy.json" target="_blank">
