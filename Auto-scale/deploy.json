@@ -33,6 +33,7 @@
     },
     "vmssName": {
       "type": "string",
+      "defaultValue": "acpdasevmss",
       "metadata": {
         "description": "String used as a base for naming resources. Must be 3-61 characters in length and globally unique across Azure."
       },
