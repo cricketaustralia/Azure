@@ -29,7 +29,7 @@
     },
     "vmNamePrefix": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-WB0",
+      "defaultValue": "AC-ABV-PD-ASE-SS",
       "metadata": {
         "description": "Prefix to use for VM names"
       }
@@ -95,7 +95,7 @@
     "storageAccountType": "Standard_LRS",
     "availabilitySetName": "ABV-PD-AUE-AS1",
     "addressPrefix": "10.0.0.0/16",
-    "subnetName": "Subnet-1",
+    "subnetName": "AC-ABV-PD-ASE-SN1",
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressType": "Dynamic",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('vnetName'), variables ('subnetName'))]",
