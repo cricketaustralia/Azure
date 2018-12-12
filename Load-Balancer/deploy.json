@@ -29,7 +29,7 @@
     },
     "vmNamePrefix": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-WB0",
+      "defaultValue": "CA-PD-ASE-WB0",
       "metadata": {
         "description": "Prefix to use for VM names"
       }
@@ -57,28 +57,28 @@
     },
     "lbName": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-LB01",
+      "defaultValue": "AC-PD-ASE-LB01",
       "metadata": {
         "description": "Load Balancer name"
       }
     },
     "nicNamePrefix": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-WB0",
+      "defaultValue": "AC-PD-ASE-WB0",
       "metadata": {
         "description": "Network Interface name prefix"
       }
     },
     "publicIPAddressName": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-VNET1-VGW1-PIP",
+      "defaultValue": "AC-PD-ASE-PIP1",
       "metadata": {
         "description": "Public IP Name"
       }
     },
     "vnetName": {
       "type": "string",
-      "defaultValue": "AC-ABV-PD-AUE-VNET1",
+      "defaultValue": "AC-PD-ASE-VNET1",
       "metadata": {
         "description": "VNET name"
       }
@@ -93,7 +93,7 @@
   },
   "variables": {
     "storageAccountType": "Standard_LRS",
-    "availabilitySetName": "ABV-PD-AUE-AS1",
+    "availabilitySetName": "AC-PD-ASE-AS1",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet-1",
     "subnetPrefix": "10.0.0.0/24",
