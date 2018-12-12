@@ -88,6 +88,14 @@
       "defaultValue": "Standard_B2ms",
       "metadata": {
         "description": "Size of the VM"
+       "allowedValues": [
+        "Standard_B1s",
+        "Standard_B1ms",
+        "Standard_B2s",
+        "Standard_B1ms",
+        "Standard_B4ms",
+        "Standard_B8ms"
+      ],
       }
     }
   },
