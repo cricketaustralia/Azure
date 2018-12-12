@@ -57,28 +57,28 @@
     },
     "lbName": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-LB01",
+      "defaultValue": "AC-ABV-PD-ASE-LB1",
       "metadata": {
         "description": "Load Balancer name"
       }
     },
     "nicNamePrefix": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-WB0",
+      "defaultValue": "AC-ABV-PD-ASE-NIC1",
       "metadata": {
         "description": "Network Interface name prefix"
       }
     },
     "publicIPAddressName": {
       "type": "string",
-      "defaultValue": "ABV-PD-AUE-VNET1-VGW1-PIP",
+      "defaultValue": "AC-ABV-PD-ASE-PIP1",
       "metadata": {
         "description": "Public IP Name"
       }
     },
     "vnetName": {
       "type": "string",
-      "defaultValue": "AC-ABV-PD-AUE-VNET1",
+      "defaultValue": "AC-ABV-PD-ASE-VNET1",
       "metadata": {
         "description": "VNET name"
       }
